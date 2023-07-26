@@ -1,14 +1,14 @@
 import React from "react";
 import { Outlet, Link } from "react-router-dom";
-import Icon from '../../components/Icon/Icon'
-import '../Navigation/navigation.styles.scss'
+import Icon from "../../components/Icon/Icon";
+import "../Navigation/navigation.styles.scss";
 
 export const Navigation = () => {
   return (
     <>
       <div className="navigation">
         <Link className="logo-container" to="/">
-          <Icon className='logo' />
+          <Icon className="logo" />
         </Link>
 
         <div className="nav-links-container">
