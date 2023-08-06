@@ -5,7 +5,9 @@ import {
 } from "../../utils/firebase/firebase.util";
 
 import FormInput from "../FormInput/FormInput";
-import '../Sign Up/SignUp.scss'
+import Button from "../Button/Button";
+
+import './SignUp.scss'
 
 const defaultFields = {
   displayName: "",
@@ -96,9 +98,9 @@ export const SignUp = () => {
           onChange={handleEvent}
         />
 
-        <button type="submit" onClick={handleSubmit}>
+        <Button type="submit" onClick={handleSubmit}>
           Sign Up
-        </button>
+        </Button>
       </form>
     </div>
   );
