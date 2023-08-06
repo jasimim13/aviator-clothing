@@ -7,9 +7,11 @@ export const Navigation = () => {
   return (
     <>
       <div className="navigation">
-        <Link className="logo-container" to="/">
-          <Icon className="logo" />
+       
+        <Link className="nav-link" to="/">
+          <Icon/>
         </Link>
+    
 
         <div className="nav-links-container">
           <Link className="nav-link" to="/shop">
